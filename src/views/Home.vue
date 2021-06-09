@@ -1,14 +1,12 @@
 <template>
-  <FormularioUno />
+  <h5 class="text-white bg-dark">
+    Selecciona la opcion formularios... aqui iria info
+  </h5>
 </template>
 
 <script>
-import FormularioUno from "@/components/FormularioUno";
-
 export default {
   name: "Home",
-  components: {
-    FormularioUno
-  }
+  components: {}
 };
 </script>

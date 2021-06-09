@@ -1,5 +1,7 @@
 <template>
-  <FormularioUno />
+  <button class="btn btn-dark">Soy estudiante</button>
+  <button class="btn btn-dark">Soy empresa</button>
+  <button class="btn btn-dark">Soy coordiandor</button>
 </template>
 
 <script>
@@ -8,7 +10,10 @@ export default {
   name: "Formularios",
   components: {
     FormularioUno
-  }
+  },
+  data: () => ({
+    index: 1
+  })
 };
 </script>
 

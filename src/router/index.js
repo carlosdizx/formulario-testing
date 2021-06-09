@@ -5,13 +5,13 @@ import Formularios from "../views/Formularios";
 const routes = [
   {
     path: "/",
-    name: "Formularios",
-    component: Formularios
-  },
-  {
-    path: "/home",
     name: "Home",
     component: Home
+  },
+  {
+    path: "/forms",
+    name: "Formularios",
+    component: Formularios
   }
 ];
 
