@@ -1,5 +1,5 @@
 <template>
-  <h1>Formulario para estudiantes</h1>
+  <h1>Formulario para empresas</h1>
   <form>
     <input
       type="text"
